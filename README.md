@@ -68,6 +68,8 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
     - [Design Materials](#design-materials)
     - [Geospatial Start-ups And Companies](#geospatial-start-ups-and-companies)
     - [MOOC](#mooc)
+    - [PODCASTS](#PODCASTS)
+    - [DEFUNCT GEOSPATIAL PODCASTS](#DEFUNCT_GEOSPATIAL_PODCASTS)
   - [Reference](#reference)
 
 
@@ -112,6 +114,8 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [Google Earth](http://earth.google.com/) - A computer program that renders a 3D representation of Earth based on satellite imagery.
 - [Skyline](http://www.skylineglobe.com/SkylineGlobe/corporate/Default.aspx?) - 3D desktop and web-based applications, enabling an enterprise to build, edit, navigate, query, and analyze realistic 3D environments.
 - [World Wind](http://worldwind.arc.nasa.gov/java/) -  An SDK (software development kit) that software engineers can use to build their own applications
+- [Earth Enterprise](https://github.com/google/earthenterprise) - the open source release of Google Earth Enterprise, a geospatial application which provides the ability to build and host custom 3D globes and 2D maps.
+- [DEM Net Elevation API](https://elevationapi.com) - 3D terrain model generation online from open data (DEM, OSM) and imagery, exports to STL and glTF.
 
 
 ## Web Map Servers
@@ -120,7 +124,7 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [GeoServer](http://geoserver.org/) - An open source server for sharing geospatial data
 - [QGIS Server](https://docs.qgis.org/1.8/en/docs/user_manual/working_with_ogc/ogc_server_support.html) - a FastCGI/CGI application written in C++ that works together with a webserver.
 - [deegree](http://www.deegree.org/) - An open source software for spatial data infrastructures and the geospatial web
-- [GeoDjango](http://geodjango.org/) - A GIS server built with python web framework -- django
+- [GeoDjango](https://docs.djangoproject.com/en/3.1/ref/contrib/gis/) - A GIS server built with python web framework -- django
 - [Mapnik](http://mapnik.org/) - An open source mapping toolkit written in C++ for desktop-based and server-based map rendering 
 - [geomajas](http://www.geomajas.org/) - An open source platform to create Web GIS applications 
 - [GeoMOOSE](http://www.geomoose.org/) - A Web Client JavaScript Framework for displaying distributed cartographic data
@@ -141,6 +145,7 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 ## Front-end Framework
 - [Leaflet](http://leafletjs.com/) - Open source javaScript library for mobile-friendly interactive maps
 - [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/) - A JavaScript & WebGL library that renders interactive maps from vector tiles and the Mapbox GL Style Specification
+- [MapLibre GL](https://github.com/maplibre/maplibre-gl-js) - Is a community led fork derived from Mapbox GL JS prior to their switch to a non-OSS license
 - [OpenLayers](http://openlayers.org/) - Open source JavaScript map viewing library
 - [three.js](http://threejs.org/) - A JavaScript 3D library which makes WebGL simpler
 - [CesiumJS](https://cesiumjs.org/) - An open source JavaScript library for world-class 3D globes and maps
@@ -202,6 +207,7 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 ### Deep Learning Framework for Geospatial
 - [Awesome Semantic Segmentation](https://github.com/mrgloom/awesome-semantic-segmentation) - A code list of semantic segmentation.
 - [deep learning object detection](https://github.com/hoya012/deep_learning_object_detection) - A paper list of object detection using deep learning.
+- [Awesome Remote Sensing Change Detection](https://github.com/wenhwu/awesome-remote-sensing-change-detection) - List of datasets, codes, papers, and contests related to remote sensing change detection.
 - [robosat](https://github.com/mapbox/robosat) - Semantic segmentation on aerial and satellite imagery.
 - [neat-EO](https://neat-EO.pink) - Efficient AI4EO OpenSource framework.
 - [rastervision](https://github.com/azavea/raster-vision) - An open source framework for deep learning on satellite and aerial imagery. 
@@ -264,6 +270,7 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [Halide](https://github.com/halide/Halide) - Halide is a programming language designed to make it easier to write high-performance image processing code on modern machines.
 - [gdalcubes](https://github.com/appelmar/gdalcubes) - gdalcubes is a library to represent collections of Earth Observation (EO) images as on demand data cubes (or multidimensional arrays).
 - [hydroflow](https://github.com/sistemalabgis/hydroflow) - Compute drainage orders in drainage basins using Strahler and Shreve methods.
+- [PDAL](https://pdal.io/) - PDAL is Point Data Abstraction Library. GDAL for point cloud data.
 
 ### Python
 - [Shapely](https://github.com/Toblerity/Shapely) - A library for manipulation and analysis of geometric objects in the Cartesian plane.
@@ -344,6 +351,13 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [MovingPandas](https://github.com/anitagraser/movingpandas) - Implementation of Trajectory classes and functions built on top of GeoPandas.
 - [terracotta](https://github.com/DHI-GRAS/terracotta) - A light-weight, versatile XYZ tile server, built with Flask and Rasterio.
 - [BlenderGIS](https://github.com/domlysz/BlenderGIS) - A blender addons to make the bridge between Blender and geographic data.
+- [morecantile](https://github.com/developmentseed/morecantile) - Construct and use map tile grids (a.k.a TileMatrixSet / TMS).
+- [xarray-spatial](https://github.com/makepath/xarray-spatial) - Raster-Based Spatial Analysis in Python.
+- [felicette](https://github.com/plant99/felicette) - Satellite imagery for dummies.
+- [geemap](https://github.com/giswqs/geemap) - A Python package for interactive mapping with Google Earth Engine, ipyleaflet, and ipywidgets.
+- [pydeck](https://github.com/visgl/deck.gl/tree/master/bindings/pydeck) - High-scale spatial rendering in Python, powered by deck.gl.
+- [Lets-Plot](https://github.com/JetBrains/lets-plot/blob/master/README_PYTHON.md) - An open-source, ggplot2-style plotting library supporting GeoPandas, interactive maps and geocoding.
+- [WaterDetect](https://github.com/cordmaur/WaterDetect) - An end-to-end algorithm to generate open water cover mask.
 
 
 ### Java
@@ -549,7 +563,7 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [sf](https://github.com/r-spatial/sf) - Simple Features for R
 - [h3r](https://github.com/scottmmjackson/h3r) - Uber's h3 bindings to the R Programming Language
 - [mapdeck](https://github.com/SymbolixAU/mapdeck) - R interface to Deck.gl and Mapbox 
-
+- [rgee](https://github.com/r-spatial/rgee) - Google Earth Engine for R
 
 
 ### Fortran
@@ -721,6 +735,7 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [VueMapbox](https://github.com/soal/vue-mapbox/) - Vue 2 components for interacting with Mapbox GL JS
 - [gcoord](https://github.com/hujiulong/gcoord) - 地理坐标系转换工具，支持WGS84/GCJ02/BD09等常用坐标系互转.
 - [city-roads](https://github.com/anvaka/city-roads) - Visualization of all roads within any city.
+- [mapshaper](https://github.com/mbloch/mapshaper) - Tools for editing Shapefile, GeoJSON, TopoJSON and CSV files.
 
 
 ### C Sharp
@@ -743,12 +758,13 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [ArcBruTile](https://github.com/ArcBruTile/ArcBruTile) - ArcBruTile displays a collection of maps in ArcGIS Pro 2.0 and ArcMap 10.0 - 10.6.
 - [BruTile](https://github.com/BruTile/BruTile) - BruTile is a .NET library to access tile services like those of OpenStreetMap, MapBox or GeodanMaps.
 - [GMap.NET](https://archive.codeplex.com/?p=greatmaps) - A great and powerful, free, cross platform, open source .NET control.
+- [DEM Net Elevation API](https://github.com/dem-net/DEM.Net) - Library focused on Digital Elevation Models, OSM and 3D from open data. Playground: https://elevationapi.com
 
 
 ### Kotlin
 
 - [geospatial-messenger](https://github.com/sdeleuze/geospatial-messenger) - Geospatial messenger application written with Spring Boot + Kotlin + PostgreSQL.
-
+- [Lets-Plot](https://github.com/JetBrains/lets-plot-kotlin/blob/master/README.md) - An open-source, ggplot2-style plotting library which includes a support of GeoToos features and geometries.
 
 ### Clojure
 
@@ -983,7 +999,9 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience) - Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome.
 - [awesome-arcgis](https://github.com/esri-es/awesome-arcgis/) - Resource list / Wiki for ArcGIS users and developers.
 - [awesome-geojson](https://github.com/tmcw/awesome-geojson) - GeoJSON utilities that will make your life easier.
-
+- [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code) - curated list of awesome tools, tutorials, code, helpful projects, links, stuff about Earth Observation and Geospatial stuff!
+- [Awesome-GEE](https://github.com/giswqs/Awesome-GEE) - A curated list of Google Earth Engine resources.
+- [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies) - List of 500+ geospatial companies (GIS, Earth Observation, UAV, Satellite, Digital Farming, ..)
 
 ## Amazing Map Sites
 - [Amazing Maps](http://amazing-maps.tumblr.com/)
@@ -1022,7 +1040,25 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 - [Geospatial Intelligence & the Geospatial Revolution](https://www.coursera.org/course/geoint)
 - [Maps and the Geospatial Revolution](https://www.coursera.org/course/maps)
 - [地理信息系统（GIS）实验,汤国安等,南京师范大学,Nanjing Normal University](https://www.icourse163.org/course/NJNU-1206774803)
-
+### PODCASTS
+- [Esri Science of Where](https://www.esri.com/about/newsroom/podcast/)
+- [Eyes on Earth](https://www.usgs.gov/centers/eros/science/eyes-earth)
+- [Geodorable Podcast](https://geodorable.com/)
+- [Geointeresting](https://podcasts.apple.com/us/podcast/geointeresting/id990858116)
+- [Isin't That Spatial](https://isntthatspatial.net/)
+- [The Mappyist Hour](http://www.themappyisthour.com/)
+- [The MapScaping Podcast](https://mapscaping.com/blogs/the-mapscaping-podcast)
+- [Map Shack](https://blog.mapspeople.com/introducing-the-map-shack-a-mapspeople-podcast)
+- [Nodes and Ways](https://www.openstreetmap.us/2020/04/nodes-and-ways-guest/)
+- [Project Geospatial](https://www.projectgeospatial.com/)
+- [Scene From Above](https://geoger.co.uk/podcast/)
+- [Texas URISA: More Than Just Maps](https://www.urisatexas.org/podcast)
+- [Thinking Spatially](https://www.josephkerski.com/thinking-spatially/)
+- [Very Spatial](https://veryspatial.com/)
+### DEFUNCT_GEOSPATIAL_PODCASTS
+- [Speaking of GIS](https://speakingofgis.com/)
+- [JB’s ‘Bits & Bobs’](http://everydaygeo.com/jbs-bits-bobs-ep-2/)
+- [A Conversation with Tim O’Reilly](http://itc.conversationsnetwork.org/shows/detail651.html)
 
 ## Reference
 >1. [List of geographic information systems software](https://en.wikipedia.org/wiki/List_of_geographic_information_systems_software)
@@ -1031,5 +1067,6 @@ Inspired by [Awesome Python](https://github.com/vinta/awesome-python).
 >3. [brandonxiang's Awesome GIS](http://www.jianshu.com/p/3b3efa92dd6d)
 >4. [list top 100 geospatial start ups companies world](http://geoawesomeness.com/list-top-100-geospatial-start-ups-companies-world/)
 >5. [Awesome GeoSpatial](https://github.com/sacridini/Awesome-Geospatial) - most Geospatial Library content come from this ropository.
+>6. [A Roundup of Geospatial Podcasts](https://www.gislounge.com/geospatial-podcasts-roundup/)
 
 
